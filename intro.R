@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 # load the CSV file with a header, and keep strings as character vectors
-=======
-library(tidyverse)
 
 # Read the csv file 
->>>>>>> 9c543da3a3fea518c6016e5be35ff5f8f7fcf276
 nycTreeData.df <- read.csv("2015-street-tree-census-tree-data.csv", header = TRUE, stringsAsFactors = FALSE, na.strings = "NA")
 
 # create an object with all of the common names of the trees
